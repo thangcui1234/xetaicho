@@ -1,0 +1,8 @@
+tim
+new
+     iVeh = CreateVehicle(PlayerVehicleInfo[playerid][listitem][pvModelId]
+     
+thay =
+ new Float:X , Float:Y, Float:Z;
+                GetPlayerPos(playerid, X , Y, Z);
+                new    iVeh = CreateVehicle(PlayerVehicleInfo[playerid][listitem][pvModelId], X+2,Y,Z, PlayerVehicleInfo[playerid][listitem][pvPosAngle],PlayerVehicleInfo[playerid][listitem][pvColor1], PlayerVehicleInfo[playerid][listitem][pvColor2], -1);
